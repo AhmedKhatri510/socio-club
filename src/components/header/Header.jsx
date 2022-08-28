@@ -22,13 +22,18 @@ const Header = () => {
         <div className="header-content ">
           <div className="leftsidebanner">
             <h3 data-aos="zoom-in-up">
-              <strong>Social And Entertainment Super Platform</strong>
+              <strong>Social And Entertainment SuperApp</strong>
             </h3>
             <h1 data-aos="zoom-in-up">SocioClub</h1>
             <p data-aos="flip-right">Sink Yourself Into Vibes</p>
           </div>
 
-          <div data-aos="zoom-out" className="banner">
+          <div data-aos="zoom-out" className="banner bottomMargin">
+            <img
+              src="/assets/socioclubmockmock2.webp"
+              alt="Socioclub superapp"
+              title="SocioClub SuperApp"
+            />
             <img
               src="/assets/socioclubmockmock.webp"
               alt="Socioclub superapp"
@@ -43,7 +48,7 @@ const Header = () => {
           data-aos="zoom-out"
           width="885"
           height="498"
-          title="socioclub superapp"
+          title="socioclub superapp promo"
           src="https://www.youtube.com/embed/HhDDiS_8J2Q?autoplay=1&loop=1&fs=0&color=white&controls=1&disablekb=1&playlist=HhDDiS_8J2Q"
           rel="noreference"
           allowFullScreen

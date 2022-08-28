@@ -1,3 +1,7 @@
+.bottomMargin {
+  margin-bottom: 6px;
+}
+
 /* banner css */
 
 .ytdiv {
@@ -17,12 +21,17 @@
 }
 
 .banner {
-  height: 550px !important;
-  width: 100% !important;
+  /* height: 550px !important; */
+  /* display: flex; */
+  flex-direction: row !important;
+  height: 130% !important;
+  /* width: 100% !important; */
   overflow: visible;
   margin: 0 !important;
   order: 2;
+  gap: 6px;
 }
+
 .banner img {
   height: 100% !important;
   width: 100% !important;
@@ -395,6 +404,20 @@ h2 {
   .googleplay img {
     margin: auto;
     padding-top: 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner {
+    /* height: 550px !important; */
+    /* display: flex; */
+    flex-direction: column !important;
+    height: 120% !important;
+    /* width: 100% !important; */
+    overflow: visible;
+    margin: 0 !important;
+    order: 2;
+    gap: 6px;
   }
 }
 
