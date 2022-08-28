@@ -1,0 +1,35 @@
+.container {
+  position: fixed !important;
+  display: flex;
+  justify-content: space-around;
+  left: 0% !important;
+  right: 0% !important;
+  top: auto !important;
+  bottom: 0 !important;
+  width: 100%;
+  z-index: 99999999;
+  height: 15vh;
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.container-link:hover {
+  color: black;
+}
+.container-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-block {
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+}
+
+.w-inline-block {
+  width: 40%;
+  text-align: center !important;
+  align-self: center;
+  justify-self: center;
+}

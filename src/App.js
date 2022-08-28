@@ -7,10 +7,12 @@ import TermsConditions from "./pages/terms-conditions/Terms_conditions";
 import Contactus from "./pages/contactus/Contactus";
 import About from "./pages/about/About";
 import { Routes, Route } from "react-router-dom";
+import FixedBar from "./components/fixedbar/FixedBar";
 
 function App() {
   return (
     <div>
+      <FixedBar />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
