@@ -62,7 +62,7 @@ const Navbar = () => {
               >
                 <Link
                   onClick={() => navigate("/")}
-                  to="/"
+                  to="Features"
                   spy={true}
                   smooth={true}
                   className="text-white display-6 opensans pointer text-center"

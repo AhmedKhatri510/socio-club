@@ -1,4 +1,7 @@
-.container {
+.fixedbar-container a:hover {
+  color: black;
+}
+.fixedbar-container {
   position: fixed !important;
   display: flex;
   justify-content: space-around;
@@ -11,20 +14,23 @@
   height: 15vh;
   background-color: white;
   border-radius: 15px 15px 0px 0px;
+  padding: 10px;
 }
 
-.container-link:hover {
+.container-link a:hover {
   color: black;
 }
 .container-link {
   display: flex;
   justify-content: space-evenly;
+  gap: 8px;
 }
 
 .text-block {
   font-weight: bold;
   font-size: 18px;
   align-self: center;
+  text-align: center;
 }
 
 .w-inline-block {
@@ -32,4 +38,15 @@
   text-align: center !important;
   align-self: center;
   justify-self: center;
+}
+
+@media screen and (max-width: 330px) {
+  .fixedbar-container {
+    font-size: 8px !important;
+  }
+}
+@media screen and (min-width: 500px) {
+  .fixedbar-container {
+    display: none !important;
+  }
 }

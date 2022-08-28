@@ -1,10 +1,8 @@
 import "./FixedBar.css";
-import useWindowSize from "./useWindowSize";
 
 const FixedBar = () => {
-  const size = useWindowSize();
   const element = (
-    <nav className="container w-container">
+    <nav className="fixedbar-container w-container">
       <a
         href="https://play.google.com/store/apps/details?id=com.socioclub.socio_club"
         target="_blank"
@@ -27,7 +25,7 @@ const FixedBar = () => {
       </a>
     </nav>
   );
-  return <>{size.width < 500 && element}</>;
+  return <>{element}</>;
 };
 
 export default FixedBar;
