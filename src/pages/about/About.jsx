@@ -2,7 +2,7 @@
 import React from "react";
 import "./About.css";
 // import { InstagramEmbed } from "react-social-media-embed";
-import socioclubsuperapp from "../../assets/socioclubsuperapp.jpeg";
+// import socioclubsuperapp from "../../assets/socioclubsuperapp.jpeg";
 
 function About() {
   return (
@@ -11,7 +11,7 @@ function About() {
         {" "}
         <u>
           {" "}
-          <i>Our Super App</i>{" "}
+          <i>Our SuperApp</i>{" "}
         </u>
       </h1>
       <div className="iframe-container">
@@ -28,25 +28,25 @@ function About() {
       </div>
       <p className="para">
         {" "}
-        <h1>Socio Club is the Indian Super App</h1>
+        <h1>SocioClub is the Indian SuperApp</h1>
         <h5>
           which focus on only social and entertainment part. It is a one stop
           destination for all your social needs.
           <br />
-          This Super app has a club for everyone's taste! There are many
+          This SuperApp has a club for everyone's taste! There are many
           opportunities to win, amazing prizes, and more. When you have
           everything at one place, you can save your time, money and memory. You
           don't need to know multiple password and no need of multiple apps. Now
-          it's time for you to experience the power of the super app.
+          it's time for you to experience the power of the SuperApp.
         </h5>{" "}
       </p>{" "}
       <hr />
-      <h1>Socio Club, Why it's unique?</h1>
+      <h1>SocioClub, Why it's unique?</h1>
       <div className="iframe-container">
         <img
-          src={socioclubsuperapp}
+          src={"/assets/socioclubsuperapp.jpeg"}
           className="imagesuper"
-          alt="socioclubsuperapp"
+          alt="socioclub superapp"
           width="560"
           height="315"
         />
@@ -57,7 +57,7 @@ function About() {
           India. It's all user-oriented.
         </h4>{" "}
         <br />
-        <h4>1 - The socio club</h4>
+        <h4>1 - The SocioClub</h4>
         <h5>
           other than the best time pass app also prioritizes users by making
           money through various ways like different contests in which
@@ -78,7 +78,7 @@ function About() {
         <h5>
           {" "}
           4 - You can use any most popular and best free entertainment apps for
-          fun but why go for different apps when socio club can give you all
+          fun but why go for different apps when SocioClub can give you all
           sorts of quality entertainment and value at one stop.{" "}
         </h5>
         <br />

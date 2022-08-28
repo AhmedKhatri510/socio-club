@@ -7,7 +7,7 @@ const TermsConditions = () => {
         <strong>Terms and Conditions</strong>
       </h1>
 
-      <h3>At Socio Club</h3>
+      <h3>At SocioClub</h3>
 
       <p>
         These terms and conditions outline the rules and regulations for the use
@@ -17,7 +17,7 @@ const TermsConditions = () => {
 
       <p>
         By accessing this website we assume you accept these terms and
-        conditions. Do not continue to use <h5>Socio Club</h5> if you do not
+        conditions. Do not continue to use <h5>SocioClub</h5> if you do not
         agree to take all of the terms and conditions stated on this page.
       </p>
 
@@ -43,7 +43,7 @@ const TermsConditions = () => {
       </h3>
 
       <p>
-        We employ the use of cookies. By accessing <h5>Socio Club</h5> , you
+        We employ the use of cookies. By accessing <h5>SocioClub</h5> , you
         agreed to use cookies in agreement with the NOBALL Entertainments
         Private Limited's Privacy Policy.{" "}
       </p>
@@ -63,17 +63,17 @@ const TermsConditions = () => {
       <p>
         Unless otherwise stated, NOBALL Entertainments Private Limited and/or
         its licensors own the intellectual property rights for all material on{" "}
-        <h5>Socio Club</h5> . All intellectual property rights are reserved. You
-        may access this from <h5>Socio Club</h5> for your own personal use
+        <h5>SocioClub</h5> . All intellectual property rights are reserved. You
+        may access this from <h5>SocioClub</h5> for your own personal use
         subjected to restrictions set in these terms and conditions.
       </p>
 
       <p>You must not:</p>
       <ul>
-        <li>Republish material from Socio Club </li>
-        <li>Sell, rent or sub-license material from Socio Club </li>
-        <li>Reproduce, duplicate or copy material from Socio Club </li>
-        <li>Redistribute content from Socio Club </li>
+        <li>Republish material from SocioClub </li>
+        <li>Sell, rent or sub-license material from SocioClub </li>
+        <li>Reproduce, duplicate or copy material from SocioClub </li>
+        <li>Redistribute content from SocioClub </li>
       </ul>
 
       <p>

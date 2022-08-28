@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import nftlogo from "../../assets/logo.png";
+// import nftlogo from "../../images/logo.png";
 import {
   AiOutlineInstagram,
   AiFillLinkedin,
@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="footer-links">
         <div className="footer-links_logo">
           <div className="logo-footer">
-            <img src={nftlogo} alt="logo" />
+            <img src={"/assets/logo.png"} alt="logo" />
           </div>
         </div>
         <div

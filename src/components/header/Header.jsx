@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
 import { Grid } from "@mui/material";
 import image2 from "../image/2.png";
-import socioclubpromo from "../../assets/socioclub mockmock.webp";
-import prizepodium from "../../assets/socioclubcontest.webp";
+// import socioclubpromo from "../../assets/socioclub mockmock.webp";
+// import prizepodium from "../../assets/socioclubcontest.webp";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -30,12 +30,11 @@ const Header = () => {
 
           <div data-aos="zoom-out" className="banner">
             <img
-              src={socioclubpromo}
+              src="/assets/socioclubmockmock.webp"
               alt="Socioclub superapp"
-              title="Super App"
+              title="SuperApp"
             />
           </div>
-
         </div>
 
         <div className="header-slider"></div>
@@ -56,18 +55,18 @@ const Header = () => {
             <Grid item md={4} xs={12}>
               <div data-aos="slide-right" className="trophy">
                 <img
-                  src={prizepodium}
-                  alt="socio club"
-                  title="Prize podium"
+                  src="/assets/socioclubcontest.webp"
+                  alt="socioclub"
+                  title="socioclub contest"
                   className="rounded"
                 />
               </div>
             </Grid>
             <Grid item md={5} xs={12} className="contests-p">
-              <p data-aos="slide-up" className="text-center">
-                Contests on memes, contests on reels, contests on everything.{" "}
-                <br /> Participate in Contests for Free and win rewards
-              </p>
+              <h3 data-aos="slide-up" className="text-center">
+                SocioClub contests on memes, reels and everything. <br />{" "}
+                Participate in Contests for Free and win rewards
+              </h3>
             </Grid>
           </Grid>
         </div>
@@ -77,8 +76,8 @@ const Header = () => {
             src={image2}
             href="#"
             className="gpay-anime"
-            alt="socio club Playstore"
-            title="Playstore"
+            alt="socioclub Playstore"
+            title="socioclub Playstore"
           />
         </div>
       </div>

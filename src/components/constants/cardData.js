@@ -102,8 +102,8 @@ export const cardsData = [
   },
   {
     imagePath: "/club/shopping-cart.webp",
-    title: "Marketing",
-    heading: "Marketing",
+    title: "Shopping",
+    heading: "Shopping",
     description: "Shop online everything.",
   },
   {

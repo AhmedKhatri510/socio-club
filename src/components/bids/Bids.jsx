@@ -4,7 +4,7 @@ import "./bids.css";
 // import Contest from "../../assets/socioclubcontest2.webp";
 // import Crypto from "../../club/digital.webp";
 // import Music from "../../club/music-note.webp";
-// // import Radio from "../../club/radio.webp";
+// import Radio from "../../club/radio.webp";
 // import Meme from "../../assets/Meme.webp";
 // import chatbot from "../../club/chatbot.webp";
 // import Podcast from "../../club/live.webp";
@@ -45,6 +45,7 @@ const Bids = ({ title }) => {
                 title={cardData.title}
                 heading={cardData.heading}
                 description={cardData.description}
+                key={cardData.title}
               />
             );
           })}

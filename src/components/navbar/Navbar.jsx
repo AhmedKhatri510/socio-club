@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./navbar.css";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -22,7 +22,11 @@ const Navbar = () => {
             data-aos="slide-right"
             className="navbar-links_logo col-lg-3 col-sm-10 col-10 d-block mx-auto"
           >
-            <img src={logo} alt="socio club" className="d-block mx-auto" />
+            <img
+              src={"/assets/logo.png"}
+              alt="socio club"
+              className="d-block mx-auto"
+            />
           </div>
           <button
             className="navbar-toggler"
@@ -58,7 +62,7 @@ const Navbar = () => {
               >
                 <Link
                   onClick={() => navigate("/")}
-                  to="Features"
+                  to="/"
                   spy={true}
                   smooth={true}
                   className="text-white display-6 opensans pointer text-center"
