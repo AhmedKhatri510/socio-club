@@ -45,6 +45,7 @@ const Bids = ({ title }) => {
                 title={cardData.title}
                 heading={cardData.heading}
                 description={cardData.description}
+                dataAos={cardData.dataAos}
                 key={cardData.title}
               />
             );

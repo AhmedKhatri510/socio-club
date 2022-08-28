@@ -4,6 +4,7 @@ export const cardsData = [
     title: "Play Games",
     heading: "Games",
     description: "Free games to play online!",
+    dataAos: "fade-right",
   },
   {
     imagePath: "/club/audio-book.webp",
@@ -11,6 +12,7 @@ export const cardsData = [
     heading: "Books",
     description:
       "Free ebooks to read and download. Get Some stuff and Read the Books",
+    dataAos: "fade-up",
   },
   {
     imagePath: "/club/audiobook.webp",
@@ -18,6 +20,7 @@ export const cardsData = [
     heading: "Audio Books",
     description:
       "Audio books online. Very lazy to read the books,listen the books",
+    dataAos: "fade-left",
   },
   {
     imagePath: "/club/news.webp",
@@ -25,30 +28,35 @@ export const cardsData = [
     heading: "News",
 
     description: "Daily Updated Real News",
+    dataAos: "fade-down",
   },
   {
     imagePath: "/assets/socioclubcontest2.webp",
     title: "Contests",
     heading: "Contests",
     description: "On Everything Participate and Win Rewards",
+    dataAos: "fade-right",
   },
   {
     imagePath: "/club/digital.webp",
     title: "NFT's",
     heading: "NFT's",
     description: "Check Trending Nft's and Crypto Things",
+    dataAos: "fade-up",
   },
   {
     imagePath: "/club/music-note.webp",
     title: "Music",
     heading: "Music",
     description: "Listen to free Music.",
+    dataAos: "fade-left",
   },
   {
     imagePath: "/club/radio.webp",
     title: "Radio",
     heading: "Radio",
     description: "Listen to all Radio live stations free!",
+    dataAos: "fade-down",
   },
   {
     imagePath: "/club/chatbot.webp",
@@ -56,18 +64,21 @@ export const cardsData = [
     heading: "Chatbot",
     description:
       "Lucy Chat bot, which will entertain with voice and talks in chat",
+    dataAos: "fade-right",
   },
   {
     imagePath: "/assets/Meme.webp",
     title: "Memes",
     heading: "Memes",
     description: "Explore all time best memes live.",
+    dataAos: "fade-up",
   },
   {
     imagePath: "/club/live.webp",
     title: "Podcasts",
     heading: "Podcasts",
     description: "Listen to Podcasts All over the World",
+    dataAos: "fade-left",
   },
   {
     imagePath: "/club/anonymous.webp",
@@ -75,41 +86,48 @@ export const cardsData = [
     heading: "Anonymous",
     description:
       "Anyone can Securely post anything, as truth as hard, as Anonymous person.",
+    dataAos: "fade-down",
   },
   {
     imagePath: "/club/movie.webp",
     title: "Gaming Videos",
     heading: "Gaming Videos",
     description: "Watch all the Free Gaming Videos.",
+    dataAos: "fade-right",
   },
   {
     imagePath: "/club/fitness.webp",
     title: "Fitness",
     heading: "Fitness",
     description: "Watch free live Exercises and do Workouts and Be Fit.",
+    dataAos: "fade-up",
   },
   {
     imagePath: "/club/quiz.webp",
     title: "Quiz",
     heading: "Quiz",
     description: "Play and Participate in All Free Quizs",
+    dataAos: "fade-left",
   },
   {
     imagePath: "/club/lotus.webp",
     title: "Breathing",
     heading: "Breathing",
     description: "Practice Breathing and Be Healthy",
+    dataAos: "fade-down",
   },
   {
     imagePath: "/club/shopping-cart.webp",
     title: "Shopping",
     heading: "Shopping",
     description: "Shop online everything.",
+    dataAos: "fade-right",
   },
   {
     imagePath: "/club/cryptocurrency.webp",
     title: "Exchange Cryptocurrency",
     heading: "Exchange Cryptocurrency",
     description: "Check all live crypto prices.",
+    dataAos: "fade-up",
   },
 ];

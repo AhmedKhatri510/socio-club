@@ -1,9 +1,9 @@
 import React from "react";
 
-const Card = ({ imagePath, title, heading, description }) => {
+const Card = ({ imagePath, title, heading, description, dataAos }) => {
   return (
     <div className="card-column">
-      <div className="bids-card bg-white">
+      <div data-aos={dataAos} className="bids-card bg-white">
         <div className="bids-card-top">
           <img
             src={imagePath}
