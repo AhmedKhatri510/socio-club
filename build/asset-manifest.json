@@ -1,40 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9029531.css",
-    "main.js": "/static/js/main.0a1f879a.js",
-    "static/media/socioclub mockmock.webp": "/static/media/socioclub mockmock.cf883d22b50107047c5c.webp",
-    "static/media/socioclubcontest.webp": "/static/media/socioclubcontest.0e036ffe266a1c015af6.webp",
-    "static/media/Meme.webp": "/static/media/Meme.4ff5c755765e7baa6de4.webp",
-    "static/media/socioclubsuperapp.jpeg": "/static/media/socioclubsuperapp.d9cf23efd8199357d5f2.jpeg",
-    "static/media/socioclubcontest2.webp": "/static/media/socioclubcontest2.8ccc0efb6fc48c50b4f5.webp",
-    "static/media/audiobook.webp": "/static/media/audiobook.6c4892bfb284cb95b780.webp",
-    "static/media/digital.webp": "/static/media/digital.ff3d2b487cc452221cd0.webp",
-    "static/media/shopping-cart.webp": "/static/media/shopping-cart.39d4e2d272bc8be64755.webp",
-    "static/media/news.webp": "/static/media/news.6307aaee4e958444d122.webp",
-    "static/media/logo.png": "/static/media/logo.e34344d57bfe6b8b4fb9.png",
-    "static/media/cryptocurrency.webp": "/static/media/cryptocurrency.2a5e9b524b94b60785ad.webp",
-    "static/media/game-console.webp": "/static/media/game-console.40037797fae162340075.webp",
-    "static/media/lotus.webp": "/static/media/lotus.2c5acdb6ac0d01a792a8.webp",
-    "static/media/anonymous.webp": "/static/media/anonymous.f3771cd2c35e42aff16e.webp",
-    "static/media/quiz.webp": "/static/media/quiz.1eebda915530ef4f938c.webp",
+    "main.css": "/static/css/main.bcecb291.css",
+    "main.js": "/static/js/main.9186fe16.js",
     "static/media/TruenoBd.woff": "/static/media/TruenoBd.7da08d6a8c0e62aba929.woff",
-    "static/media/chatbot.webp": "/static/media/chatbot.d33c7b6da72a8c5cbcd6.webp",
-    "static/media/fitness.webp": "/static/media/fitness.4156f1005bd739a519ca.webp",
-    "static/media/radio.webp": "/static/media/radio.8e739cfe50c14bb2e063.webp",
-    "static/media/music-note.webp": "/static/media/music-note.42a2dba49fbcdd929fd9.webp",
-    "static/media/audio-book.webp": "/static/media/audio-book.e44bb99bd29137ed1b50.webp",
-    "static/media/movie.webp": "/static/media/movie.4e2cf393a26dcf21156c.webp",
     "index.html": "/index.html",
-    "static/media/live.webp": "/static/media/live.bf166ac1ee2657c9b741.webp",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.a9029531.css.map": "/static/css/main.a9029531.css.map",
-    "main.0a1f879a.js.map": "/static/js/main.0a1f879a.js.map"
+    "main.bcecb291.css.map": "/static/css/main.bcecb291.css.map",
+    "main.9186fe16.js.map": "/static/js/main.9186fe16.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9029531.css",
-    "static/js/main.0a1f879a.js"
+    "static/css/main.bcecb291.css",
+    "static/js/main.9186fe16.js"
   ]
 }

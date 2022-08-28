@@ -8,6 +8,12 @@
   padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 500px) {
+  .footer {
+    margin-bottom: 12vh;
+  }
+}
+
 .footer-btn p {
   box-sizing: border-box;
   font-family: var(--font-family);
