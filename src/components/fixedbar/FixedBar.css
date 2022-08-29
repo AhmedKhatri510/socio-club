@@ -1,52 +1,45 @@
-.fixedbar-container a:hover {
-  color: black;
-}
-.fixedbar-container {
-  position: fixed !important;
-  display: flex;
-  justify-content: space-around;
-  left: 0% !important;
-  right: 0% !important;
-  top: auto !important;
-  bottom: 0 !important;
-  width: 100%;
-  z-index: 99999999;
-  height: 12vh;
-  background-color: white;
-  border-radius: 15px 15px 0px 0px;
-  padding: 10px;
-}
-
-.container-link a:hover {
-  color: black;
-}
-.container-link {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 8px;
+.appbar {
+  display: flex !important;
+  background-color: white !important;
+  border-radius: 10px 10px 0 0 !important;
 }
 
 .text-block {
-  font-weight: bold;
-  font-size: 18px;
-  align-self: center;
+  color: black !important;
   text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-weight: bold;
+}
+
+.toolbar a {
+  display: flex;
+  gap: 6px;
+}
+
+.toolbar {
+  padding: 5px;
 }
 
 .w-inline-block {
-  width: 40%;
+  width: 45%;
   text-align: center !important;
   align-self: center;
   justify-self: center;
 }
 
-@media screen and (max-width: 330px) {
-  .fixedbar-container {
-    font-size: 8px !important;
+@media screen and (max-width: 300px) {
+  .w-inline-block {
+    width: auto !important;
+  }
+  .w-inline-block img {
+    height: 3rem;
+    width: auto !important;
   }
 }
+
 @media screen and (min-width: 500px) {
-  .fixedbar-container {
+  .appbar {
     display: none !important;
   }
 }
