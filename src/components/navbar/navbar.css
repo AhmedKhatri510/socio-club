@@ -1,7 +1,11 @@
 .navbar-toggler {
-  width: 20%;
-  height: 4rem;
+  width: 12%;
+  height: auto;
   padding: 0.5rem;
+}
+
+.navbar {
+  /* margin-right: -70px !important; */
 }
 .text-white {
   /* max-width: 100px; */
@@ -20,18 +24,14 @@
   }
 
   .navbar-toggler {
-    /* width: 20%;
-    height: 4rem; */
+    width: 11%;
+    height: auto;
     padding: 0 !important;
   }
 
   .navbar {
-    padding: 1rem 1rem 1rem 1rem !important;
-  }
-
-  .navbar-toggler {
-    width: 20%;
-    height: auto;
+    margin: 1rem;
+    padding: 1rem 0 1rem 1rem !important;
   }
 }
 

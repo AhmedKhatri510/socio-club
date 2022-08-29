@@ -28,7 +28,7 @@ const FixedBar = () => {
           target="_blank"
         >
           <div className="text-block">
-            <span>download</span> our SuperApp now
+            <span>Download</span> our SuperApp now
           </div>
 
           <a

@@ -75,7 +75,12 @@ const Header = () => {
             </Grid>
           </Grid>
         </div>
-        <div data-aos="zoom-in-up" className="googleplay">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.socioclub.socio_club"
+          target="_blank"
+          data-aos="zoom-in-up"
+          className="googleplay"
+        >
           <p>Get in on Google Playstore</p>
           <img
             src={image2}
@@ -84,7 +89,7 @@ const Header = () => {
             alt="socioclub Playstore"
             title="socioclub Playstore"
           />
-        </div>
+        </a>
       </div>
       <div id="splash">
         <div className="anim">
