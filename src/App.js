@@ -6,8 +6,9 @@ import Privacypolicy from "./pages/privacy-policy/Privacy_policy";
 import TermsConditions from "./pages/terms-conditions/Terms_conditions";
 import Contactus from "./pages/contactus/Contactus";
 import About from "./pages/about/About";
-import { Routes, Route } from "react-router-dom";
+import { Switch, Routes, Route } from "react-router-dom";
 import FixedBar from "./components/fixedbar/FixedBar";
+import PageNotFound from "./pages/pagenotfound/PageNotFound";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/termsConditions" element={<TermsConditions />} />
         <Route path="/About" element={<About />} />
         <Route path="/contactus" element={<Contactus />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </div>
